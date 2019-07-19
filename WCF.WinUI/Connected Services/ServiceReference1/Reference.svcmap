@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="66ac0887-d402-407c-9213-be5adb8bb005" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62840/Urunler.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Urunler.xsd" MetadataType="Schema" ID="5e85719d-abf2-49ed-a3c4-0afdbf51a33b" SourceId="1" SourceUrl="http://localhost:62840/Urunler.svc?xsd=xsd2" />
+    <MetadataFile FileName="Urunler1.xsd" MetadataType="Schema" ID="aaabddef-3dd2-4153-a8d8-8c2fcca3b196" SourceId="1" SourceUrl="http://localhost:62840/Urunler.svc?xsd=xsd0" />
+    <MetadataFile FileName="Urunler.disco" MetadataType="Disco" ID="1dae43db-4f0f-4622-8149-9355748d9095" SourceId="1" SourceUrl="http://localhost:62840/Urunler.svc?disco" />
+    <MetadataFile FileName="Urunler.wsdl" MetadataType="Wsdl" ID="82180d15-9d83-4b13-9b0b-b8708d60dfa8" SourceId="1" SourceUrl="http://localhost:62840/Urunler.svc?wsdl" />
+    <MetadataFile FileName="Urunler2.xsd" MetadataType="Schema" ID="923ee986-3c95-496b-a06c-41b6499e4905" SourceId="1" SourceUrl="http://localhost:62840/Urunler.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
